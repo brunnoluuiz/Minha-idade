@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="407dp"
+    android:layout_height="match_parent"
+    tools:context=".AgeByDateActivity">
+
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:background="#E8E6E6"
+      android:orientation="vertical"
+      tools:layout_editor_absoluteX="154dp"
+      tools:layout_editor_absoluteY="54dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="39dp"
+        android:orientation="vertical">
+
+      <TextView
+          android:id="@+id/textView1"
+          android:layout_width="match_parent"
+          android:layout_height="53dp"
+          android:gravity="center"
+          android:text="Digite a data de nascimento:"
+          android:textColor="#020202"
+          android:textSize="18sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+      <EditText
+          android:id="@+id/etAnoNascimentoOne"
+          android:layout_width="116dp"
+          android:layout_height="match_parent"
+          android:layout_gravity="center"
+          android:ems="10"
+          android:gravity="center"
+          android:inputType="date|number" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btCalcularOne"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="Calcular"
+        android:textAllCaps="false"
+        app:backgroundTint="#050404" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="61dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+      <TextView
+          android:id="@+id/tvIdadeOne"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_margin="12dp"
+          android:gravity="center"
+          android:text="Idade:"
+          android:textColor="#020101"
+          android:textSize="18sp" />
+    </LinearLayout>
+  </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

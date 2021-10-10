@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#FAF5F5"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="122dp"
+        tools:layout_editor_absoluteY="85dp">
+
+        <TextView
+            android:id="@+id/tvIdade"
+            android:layout_width="411dp"
+            android:layout_height="86dp"
+            android:gravity="center"
+            android:text="Saiba sua idade :"
+            android:textColor="#040202"
+            android:textSize="24sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="87dp"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/btAno"
+                android:layout_width="168dp"
+                android:layout_height="70dp"
+                android:background="#050404"
+                android:backgroundTint="#050404"
+                android:gravity="center"
+                android:text="Pelo ano de nascimento"
+                android:textAllCaps="false"
+                android:textColor="#FAF7F7"
+                android:textSize="14sp"
+                app:backgroundTint="#090101" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="102dp"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/btData"
+                android:layout_width="168dp"
+                android:layout_height="75dp"
+                android:background="#070606"
+                android:backgroundTint="#020101"
+                android:gravity="center"
+                android:text="Pela data de nascimento"
+                android:textAllCaps="false"
+                android:textColor="#F6F1F1"
+                android:textSize="14sp"
+                app:backgroundTint="#050101" />
+        </LinearLayout>
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
